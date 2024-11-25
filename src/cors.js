@@ -4,7 +4,8 @@ const cors = require('cors');
 
 const allowedOrigins = [
   'http://localhost:3000',  // Vite's default frontend URL
-  'http://localhost:5173', // Replace with your production Vite URL
+  'http://localhost:5173', 
+  'https://ims-college-project.netlify.app/'// Replace with your production Vite URL
 ];
 
 const corsOptions = {
